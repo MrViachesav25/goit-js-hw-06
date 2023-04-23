@@ -7,7 +7,7 @@ formLoginEl.addEventListener('submit', (event) => {
         email: inputEmailEl.value,
         password: inputPasswordEl.value
     }
-    if(inputEmailEl.value === '' || passwordEl.value === '') {
+    if(inputEmailEl.value === '' || inputPasswordEl.value === '') {
         return alert(`Всі поля мають бути заповнені!!!!!`);
     }
     console.log(elements);
